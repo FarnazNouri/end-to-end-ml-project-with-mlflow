@@ -1,0 +1,7 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://raw.githubusercontent.com/FarnazNouri/data-repository/refs/heads/main/winequality-red.csv
+  local_data_file: artifacts/data_ingestion/winequality-red.csv
+  unzip_dir: artifacts/data_ingestion
